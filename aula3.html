@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento- flex wrap</title>
+    <style>
+        .flex-containnner{
+            display:flex;
+            height: 150px; 
+            border: 2px solid black;
+            background-color: violet;
+
+        }
+
+        .item{
+            font-size: 25px;
+            height: 50%;
+            text-align: center;
+            width: 100px;
+            line-height: 50px;
+
+        }
+        .nowrap{
+            flex-wrap: nowrap;
+        }
+        .blue{
+            background-color:blue ;
+        }
+        .green{
+            background-color: lightgreen;
+        }
+        .orange{
+            background-color: orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>no-wrap </h1>
+
+        <div class="flex-containnner">
+            
+        <di class="item orange">1</di>
+        <di class="item green">2</di>
+        <di class="item blue">3</di>
+    
+    </div>
+    
+</body>
+</html>
